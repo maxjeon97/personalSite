@@ -130,7 +130,9 @@ li {
 .socials {
   display: flex;
   justify-content: center;
-  gap: 60px;
+  gap: 70px;
   text-align: center;
   height: 40px;
+  margin-bottom: 0;
+  padding-bottom: 10px;
 }
