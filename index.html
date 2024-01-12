@@ -9,20 +9,47 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>My Website</title>
   </head>
-  <header>
-    <body>
+  <body>
+    <nav class="nav">
       <ul>
-        <li><button>Home</button></li>
-        <li><button>About</button></li>
-        <li><button>Contact Information</button></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="Resume_Max_Jeon.pdf">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
-      <h1>Max Jeon</h1>
-      <img src="PassportPhoto.JPEG" alt="Photo" class="photo">
-      <h2>Aspiring Software Engineer</h2>
-      <h1><i class="material-icons" style="color:red">place</i> Chino, CA</h1>
-      <p>
-        My name is Max Jeon, and I am a pre-medical student turned pre-software engineer.
+    </nav>
+    <div class="homepage" id="home" >
+      <div class="intro">
+        <h1>Max Jeon</h1>
+        <img src="PassportPhoto.JPEG" alt="Photo" class="photo">
+        <h2>Aspiring Software Engineer</h2>
+        <h1><i class="material-icons" style="color:red">place</i> Chino, CA</h1>
+      </div>
+    </div>
+    <div class="about-me" id="about">
+      <h1>About Me</h1>
+      <p style="margin-bottom: 20px;">
+        My name is Max Jeon, and I am a pre-medical student turned pre-software engineer. I graduated from UCLA in 2018
+        with a Bachelor's Degree in Psychology with intention of pursuing a PhD, but decided to pivot into a career in medicine
+        instead. COVID-related complications set my application process back two years, and when I was able to apply, I did not
+        receive acceptance into the programs I was interested in. Throughout this process, I developed a growing interest in coding and
+        because all of my closest friends are software engineers, I began to ask more and more questions about working in the field.
+        I decided that a career as a software engineer was much better suited to my life goals, and I also found it to be much more
+        interesting than I originally believed it to be. I am now enrolled into a bootcamp at Rithm School and am excited to enter the
+        software workforce.
       </p>
-    </body>
-  </header>
+    </div>
+    <div class="contact-info" id="contact">
+      <h2>
+        Contact Information <br>
+        Ask Me Anything!
+      </h2>
+      <ul class="socials">
+        <li><a href="https://github.com/maxjeon97" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>https://github.com/maxjeon97</a></li>
+        <li><a href="https://www.linkedin.com/in/max-jeon/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i>https://www.linkedin.com/in/max-jeon/</a></li>
+        <li><a href="mailto:maxjeon97@gmail.com" target="_blank" rel="noopener"><i class="fa fa-envelope"></i>maxjeon97@gmail.com</a></li>
+        <li><i class="fa-solid fa-phone"></i>(213)210-9054</li>
+      </ul>
+    </div>
+  </body>
 </html>
