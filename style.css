@@ -33,6 +33,10 @@ html, body {
   transition: background 1s;
 }
 
+li {
+  list-style: none;
+}
+
 .nav ul li:hover {
   opacity: .5;
   cursor: pointer;
@@ -55,7 +59,7 @@ html, body {
 
 .intro {
   position: absolute;
-  color: rgb(235, 239, 243);
+  color: rgb(228, 238, 238);
   top: 50%;
   left: 50%;
   font-size: 2.3em;
@@ -82,20 +86,34 @@ html, body {
 .personalinfo {
   display: flex;
   width: 50%;
-  margin-bottom: 25px;
 }
 
-li {
-  display: inline;
+.hobbies {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
 }
 
+.hobbies ul {
+  text-align: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+}
+
+.hobbies ul li {
+  margin-bottom: 20px;
+}
 #projects {
   display: flex;
   align-items: center;
   flex-direction: column;
   font-size: 2em;
   padding-bottom: 60px;
-  background-color: rgb(230, 236, 236);
+  background-color: rgb(222, 231, 231);
 }
 
 .grid-container {
@@ -123,7 +141,7 @@ li {
 
 #contact {
   padding-top: 20px;
-  background-color: rgb(236, 245, 245);
+  background-color: rgb(228, 238, 238);
   font-size: 1.5em;
 }
 
