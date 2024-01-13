@@ -69,8 +69,10 @@ li {
 
 .photo {
   display: inline-block;
-  width: 280px;
-  height: 280px;
+  position: relative;
+  top: 10px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   object-fit: cover;
 }
