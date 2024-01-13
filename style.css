@@ -59,10 +59,12 @@ li {
 
 .intro {
   display: flex;
+  height: 100%;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   color: rgb(228, 238, 238);
-  font-size: 2.3em;
+  font-size: 2em;
 }
 
 
